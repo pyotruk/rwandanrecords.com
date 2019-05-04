@@ -2,7 +2,12 @@ const htmlStandards = require('reshape-standard')
 const cssStandards = require('spike-css-standards')
 const jsStandards = require('spike-js-standards')
 const pageId = require('spike-page-id')
+const yaml = require('js-yaml')
+const fs = require('fs')
+
 const env = process.env.SPIKE_ENV
+
+const getStaticContent = (name) => yaml.safeLoad(fs.readFileSync(`./content/${name}.yaml`, 'utf8'))
 
 module.exports = {
   devtool: 'source-map',
@@ -11,7 +16,7 @@ module.exports = {
     locals: (ctx) => {
       return {
         pageId: pageId(ctx),
-        records: require('./content/records')
+        records: getStaticContent('records')
       }
     },
     minify: env === 'production'

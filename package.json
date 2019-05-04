@@ -8,6 +8,7 @@
   },
   "bugs": "https://github.com/vldmri/rwandan-records/issues",
   "dependencies": {
+    "js-yaml": "^3.13.1",
     "less": "^3.9.0",
     "less-loader": "^5.0.0",
     "reshape-standard": "^3.3.0",
