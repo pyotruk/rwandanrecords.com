@@ -8,6 +8,8 @@
   },
   "bugs": "https://github.com/vldmri/rwandan-records/issues",
   "dependencies": {
+    "less": "^3.9.0",
+    "less-loader": "^5.0.0",
     "reshape-standard": "^3.3.0",
     "spike": "^2.3.0",
     "spike-css-standards": "^4.0.0",

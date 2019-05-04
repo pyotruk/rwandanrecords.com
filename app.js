@@ -6,7 +6,7 @@ const env = process.env.SPIKE_ENV
 
 module.exports = {
   devtool: 'source-map',
-  ignore: ['**/layout.html', '**/_*', '**/.*', 'readme.md', 'yarn.lock', 'package-lock.json'],
+  ignore: ['**/layout.html', '**/_*', '**/.*', 'readme.md', 'package-lock.json', '.*/**/*', 'content/*'],
   reshape: htmlStandards({
     locals: (ctx) => {
       return {
@@ -20,5 +20,10 @@ module.exports = {
     minify: env === 'production',
     warnForDuplicates: env !== 'production'
   }),
-  babel: jsStandards()
+  babel: jsStandards(),
+  module: {
+    rules: [
+      {test: /\.(css)|(less)/, use: [{loader: 'less-loader'}]}
+    ]
+  }
 }
