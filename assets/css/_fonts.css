@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'FoundersGroteskX';
+  src: url('/fonts/FoundersGrotesk-XCondensed.woff2') format('woff2'),
+  url('/fonts/FoundersGrotesk-XCondensed.woff') format('woff'),
+  url('/fonts/FoundersGrotesk-XCondensed.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'FoundersGrotesk';
+  src: url('/fonts/FoundersGrotesk-Medium.woff2') format('woff2'),
+  url('/fonts/FoundersGrotesk-Medium.woff') format('woff'),
+  url('/fonts/FoundersGrotesk-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'FoundersGrotesk';
+  src: url('/fonts/FoundersGrotesk-MediumItalic.woff2') format('woff2'),
+  url('/fonts/FoundersGrotesk-MediumItalic.woff') format('woff'),
+  url('/fonts/FoundersGrotesk-MediumItalic.ttf') format('truetype');
+  font-style: italic;
+}

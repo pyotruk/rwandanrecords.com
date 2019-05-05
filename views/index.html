@@ -7,7 +7,10 @@
       <div>
         <ul>
           <each loop='record of records'>
-            <li>{{ record.title }} [{{ record.mins }}' {{ record.secs }}'']</li>
+            <li>
+              <h1>{{ record.title }}</h1>
+              <p>{{ record.mins }}' {{ record.secs }}''</p>
+            </li>
           </each>
         </ul>
       </div>
