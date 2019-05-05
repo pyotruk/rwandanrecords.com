@@ -1,7 +1,13 @@
 <extends src='layout.html'>
   <block name='content'>
 
-    <a href="/about.html">About</a>
+    <nav>
+      <ul>
+        <li>
+          <a href="/trailer.html">Trailer</a>
+        </li>
+      </ul>
+    </nav>
 
     <section id="records">
       <div>
@@ -9,7 +15,8 @@
           <each loop='record of records'>
             <li>
               <h1>{{ record.title }}</h1>
-              <p>{{ record.mins }}' {{ record.secs }}''</p>
+              <h2>{{ record.subtitle }}</h2>
+              <h2>{{ record.duration }}</h2>
             </li>
           </each>
         </ul>

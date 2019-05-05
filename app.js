@@ -16,7 +16,8 @@ module.exports = {
     locals: (ctx) => {
       return {
         pageId: pageId(ctx),
-        records: getStaticContent('records')
+        records: getStaticContent('records'),
+        trailer: getStaticContent('trailer')
       }
     },
     minify: env === 'production'
