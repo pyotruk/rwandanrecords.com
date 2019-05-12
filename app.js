@@ -7,7 +7,11 @@ const fs = require('fs')
 
 const env = process.env.SPIKE_ENV
 
-const getStaticContent = (name) => yaml.safeLoad(fs.readFileSync(`./content/${name}.yaml`, 'utf8'))
+const getStaticContent = (name, lang) => {
+  return lang
+    ? yaml.safeLoad(fs.readFileSync(`./content/${name}_${lang}.yaml`, 'utf8'))
+    : yaml.safeLoad(fs.readFileSync(`./content/${name}.yaml`, 'utf8'))
+}
 
 module.exports = {
   devtool: 'source-map',
@@ -17,7 +21,11 @@ module.exports = {
       return {
         pageId: pageId(ctx),
         records: getStaticContent('records'),
-        trailer: getStaticContent('trailer')
+        trailer: getStaticContent('trailer'),
+        about: {
+          en: getStaticContent('about', 'en'),
+          de: getStaticContent('about', 'de')
+        }
       }
     },
     minify: env === 'production'
