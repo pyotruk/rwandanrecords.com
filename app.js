@@ -20,7 +20,10 @@ module.exports = {
     locals: (ctx) => {
       return {
         pageId: pageId(ctx),
-        records: getStaticContent('records'),
+        records: {
+          en: getStaticContent('records', 'en'),
+          de: getStaticContent('records', 'de')
+        },
         trailer: getStaticContent('trailer'),
         about: {
           en: getStaticContent('about', 'en'),

@@ -3,8 +3,17 @@
 
     <section id="records">
       <div>
-        <ul>
-          <each loop='record of records'>
+        <ul lang="en">
+          <each loop='record of records.en'>
+            <li>
+              <h1>{{ record.title }}</h1>
+              <h2>{{ record.subtitle }}</h2>
+              <h2>{{ record.duration }}</h2>
+            </li>
+          </each>
+        </ul>
+        <ul lang="de">
+          <each loop='record of records.de'>
             <li>
               <h1>{{ record.title }}</h1>
               <h2>{{ record.subtitle }}</h2>
