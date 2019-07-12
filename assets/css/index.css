@@ -4,5 +4,5 @@
 @import '_nav.less';
 @import '_records.less';
 
-@import '_page-index.less';
-@import '_page-about.less';
+@import 'pages/_index.less';
+@import 'pages/_trailer.less';

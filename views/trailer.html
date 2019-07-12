@@ -1,5 +1,7 @@
 <extends src='layout.html'>
   <block name='content'>
-    <iframe src="{{ trailer.video }}" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+    <div id="trailer-iframe-wrapper">
+      <iframe src="{{ trailer.video }}" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+    </div>
   </block>
 </extends>

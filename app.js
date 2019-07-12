@@ -25,6 +25,7 @@ module.exports = {
           de: getStaticContent('records', 'de')
         },
         trailer: getStaticContent('trailer'),
+        contacts: getStaticContent('contacts'),
         about: {
           en: getStaticContent('about', 'en'),
           de: getStaticContent('about', 'de')
