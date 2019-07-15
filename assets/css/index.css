@@ -4,5 +4,7 @@
 @import '_nav.less';
 @import '_records.less';
 
+@import 'components/_accordion.less';
+
 @import 'pages/_index.less';
 @import 'pages/_trailer.less';
