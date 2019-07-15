@@ -1,0 +1,97 @@
+---
+- name: Eric 1key
+  bio: >
+    ist Autor, Musiker, Sänger und Blogger und einer der bekanntesten Künstler Ruandas. Er
+    veröffentlicht seine Werke in Englisch, Französisch und Kinyarwanda. In seinen Texten und
+    Songs portraitiert 1key das heutige kosmopolitische Kigali.
+- name: Jens Dietrich
+  bio: >
+    ist Autor, Regisseur und Dramaturg. Er studierte Angewandte Theaterwissenschaften
+    in Gießen und arbeitete an zahlreichen Theaterprojekten in Europa und Afrika.
+    Sein Schwerpunkt liegt auf recherchebasiertem, politischen Theater, das sich zwischen den
+    Genres bewegt.
+- name: Klaus Janek
+  bio: >
+    ist ein in Berlin lebender Komponist und Kontrabassist. Janek ist bekannt für seinen
+    besonderen musikalischen Ansatz, die die Handlung des Komponierens mit dem
+    performativen Akt verbindet. Er kombiniert dabei akustischen Kontrabass und Elektronik zu
+    einer eigenen musikalischen Sprache.
+- name: Yannick Kamenzi
+  bio: >
+    ist Tänzer und studiert Wirtschaft an der National University of Rwanda. Er wuchs in einer
+    Familie auf, in der Tanz und Gesang Teil des Alltagslebens waren. Sein Tanzstil kombiniert
+    Contemporary Dance mit traditionellen ruandischen Tänzen.
+- name: Evariste Karinganire
+  bio: >
+    ist Intore-Tänzer und begann bereits mit neun Jahren in der Kompanie Inyarurembo mit dem
+    Tanzen. Außerdem war er Ensemblemitglied bei Amasimbi N’Amakombe, Urugangazi und
+    Imboneramuco.
+- name: Hervé Kimenyi
+  bio: >
+    ist Schauspieler und Stand-up Comedian. Er begann seine Karriere mit der Hip-Hop-Gruppe
+    Cool Familiy in Kigali als Tänzer und Choreograph und ist Mitbegründer der Comedy Knights
+    Rwanda. Er spielte in zahlreichen nationalen und internationalen Film- und
+    Theaterproduktionen.
+- name: Milena Kipfmüller
+  bio: >
+    ist Regisseurin und Musikerin. Sie studierte an der Universidade de Sao Paulo Oboe und
+    Klavier, Musikwissenschaft und Kunstgeschichte in Heidelberg
+    und Angewandte Theaterwissenschaft in Giessen. Ihre Arbeiten beschäftigen sich mit der
+    Inszenierung von Klang und musikalisierter Sprache.
+- name: Gamalière Mbonimana
+  bio: >
+    ist emeritierter Professor für Geschichte an der National University of Rwanda. Er forscht zu
+    ruandischer Musik und zu internationalen Beziehungen. In Ruanda sind zudem seine
+    Übersetzungen der Bibel in Kinyarwanda bekannt.
+- name: Assumpta Mugiraneza
+  bio: >
+    ist Sozialpsychologin und Politikwissenschaftlerin und leitet das IRIBA Centre for Multimedia
+    Hertitage Kigali. Sie erforschte zunächst die Geschichte des Holocaust, bevor sie sich der
+    Aufarbeitung des Völkermords in Ruanda widmete. Sie ist die Verfasserin zahlreicher
+    Veröffentlichungen über den Genozid in ihrer Heimat.
+- name: Odette Mukakimenyi
+  bio: >
+    verbrachte 40 Jahre ihres Lebens im Exil in der Region der Großen Seen. Sie kehrte vor
+    kurzem in ihre alte Heimat zurück und lebt in einem kleinen Haus, das ihre Tochter für sie
+    gekauft hat in einem Vorort von Kigali.
+- name: Béata Mukamulisa
+  bio: >
+    ist Sängerin und eine der letzten Hüterinnen der ruandischen traditionellen Musik. Ihre Stimme
+    löst selbst bei denen eine nostalgische Wehmut aus, die ihre Texte nicht verstehen.
+- name: Imaculée Mukandoli
+  bio: >
+    ist Sängerin. Ihre einnehmende Stimme hat ihr nicht nur großen Respekt in der ruandischen
+    Musikszene verschafft, sondern hat es ihr ebenfalls ermöglicht, den Dingen einen Ausdruck zu
+    verleihen, die nicht in Worte zu fassen sind.
+- name: Deo Munyakazi
+  bio: >
+    ist der jüngste professionelle Inanga-Spieler in Ruanda. Er studierte Arts and Creative
+    Industries an der National University of Rwanda. Er arbeitete in zahlreichen internationalen
+    Konstellationen und verbindet bei seinem Inanga-Spiel traditionelle Melodien mit seinem
+    eigenen Gesangsstil.
+- name: Jean Marie Vianney Mushabizi
+  bio: >
+    ist Musiker, Inanga-Virtuose und Geschichtenerzähler. Seine Musik wird seit den 70er Jahren
+    im ruandischen Radio gespielt. Mushabizi arbeitet als Bauer auf seinen Feldern und gibt sein
+    Wissen von Zeit zu Zeit an die nächsten Generationen weiter.
+- name: Paul Ntakirutimana
+  bio: >
+    ist Instrumentenbauer. Er lernte das Kunsthandwerk von seinem Vater, der es von seinem
+    Vater lernte. Ntakirutimana stellt die ruandische Zither, die Inanga her, fertigt Trommeln und
+    die Ausrüstungen für Tänzer*innen. Er lebt in einem kleinen Dorf in der Nähe von Nyanza im
+    Süden Ruandas.
+- name: Jelka Plate
+  bio: >
+    ist bildende Künstlerin und Bühnen/Kostümbildnerin, lebt in Berlin, studierte freie Kunst und
+    Bühnenbild an der Hochschule für bildende Künste in Hamburg und arbeitet in Afrika und
+    Europa.
+- name: Wesley Ruzibiza
+  bio: >
+    ist einer der bekanntesten Tänzer und Choreographen Ruandas. Er gründete die erste
+    professionelle Tanzkompagnie in Ruanda, die Amizero Company.
+- name: Chris Schwagga
+  bio: >
+    ist Fotograf. Er wurde in Burundi geboren, wuchs im Kongo auf und arbeitet derzeit in Kigali.
+    Schwagga begann mit 21, Fotos in den Straßen Kinshasas mit einer 2-Megapixel-Kamera zu
+    schießen. Die Inspirationen für seine Arbeiten erhält Schwagga bei seinen Reisen und durch
+    Musik und nimmt Einflüsse aus den Ländern auf, zwischen denen er sich bewegt.

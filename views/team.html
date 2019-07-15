@@ -1,0 +1,14 @@
+<extends src='layout.html'>
+  <block name='content'>
+
+    <section id="team">
+        <each loop='person of team'>
+          <div>
+            <h3>{{ person.name }}</h3>
+            <p md>{{ person.bio }}</p>
+          </div>
+        </each>
+    </section>
+
+  </block>
+</extends>
