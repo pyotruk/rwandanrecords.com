@@ -4,8 +4,11 @@
     <section id="records">
       <div>
         <ul lang="en">
-          <each loop='record of records.en'>
-            <li>
+          <each loop='record, id of records.en'>
+            <li
+              id="record-{{ id }}"
+              data-text="{{ record.text }}"
+            >
               <h1>{{ record.title }}</h1>
               <h2>{{ record.subtitle }}</h2>
               <h2>{{ record.duration }}</h2>
@@ -21,6 +24,13 @@
             </li>
           </each>
         </ul>
+      </div>
+    </section>
+
+    <section id="record-modal">
+      <div>
+        <i>x</i>
+        <p></p>
       </div>
     </section>
 
