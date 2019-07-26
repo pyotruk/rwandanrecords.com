@@ -9,9 +9,9 @@ $(document).ready(() => {
 
   $('#records li h1').click((e) => {
     const li = $(e.target).parents('li')
-    const text = li.attr('data-text')
+    const html = li.find('em').html()
 
-    modal.find('p').text(text)
+    modal.find('p').html(html)
     modal.addClass('visible')
   })
 })

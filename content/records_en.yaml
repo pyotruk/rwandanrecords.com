@@ -4,7 +4,8 @@
     INTERFACE
   subtitle: with Yannick Kamenzi
   duration: 1’45’’
-  text: test test
+  text: >
+    test test 42
 - title: >
     THE KINGS
     WAGER
