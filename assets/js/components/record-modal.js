@@ -9,9 +9,12 @@ $(document).ready(() => {
 
   $('#records').find('li').click((e) => {
     const li = e.target.tagName === 'LI' ? $(e.target) : $(e.target).parents('li')
-    const html = li.find('em').html()
 
-    modal.find('p').html(html)
-    modal.addClass('visible')
+    if (li.find('em').length) {
+      const html = li.find('em').html()
+
+      modal.find('p').html(html)
+      modal.addClass('visible')
+    }
   })
 })
