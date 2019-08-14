@@ -1,4 +1,4 @@
-<extends src='layout.html'>
+<extends src='views/layouts/main.html'>
   <block name='content'>
 
     <section id="records">
@@ -6,18 +6,15 @@
         <ul lang="en">
           <each loop='record of records.en'>
             <li>
-              <if condition="record.text">
-                <em>
-                  <p md>{{ record.text }}</p>
-                </em>
-              </if>
-              <h1>{{{ record.title }}}</h1>
-              <if condition="record.subtitle">
-                <h2>{{{ record.subtitle }}}</h2>
-              </if>
-              <if condition="record.duration">
-                <h2>{{ record.duration }}</h2>
-              </if>
+              <a href="records/the-user-interface.html">
+                <h1>{{{ record.title }}}</h1>
+                <if condition="record.subtitle">
+                  <h2>{{{ record.subtitle }}}</h2>
+                </if>
+                <if condition="record.duration">
+                  <h2>{{ record.duration }}</h2>
+                </if>
+              </a>
             </li>
           </each>
         </ul>

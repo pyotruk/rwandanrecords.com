@@ -17,6 +17,7 @@ module.exports = {
   devtool: 'source-map',
   ignore: ['**/layout.html', '**/_*', '**/.*', 'readme.md', 'package-lock.json', '.*/**/*', 'content/*'],
   reshape: htmlStandards({
+    root: './',
     locals: (ctx) => {
       return {
         pageId: pageId(ctx),
