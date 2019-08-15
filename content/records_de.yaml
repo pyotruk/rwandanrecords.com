@@ -1,8 +1,10 @@
 ---
-- title: >
+- id: rwandan-records
+  title: >
     Rwandan<br>
     Records
-- title: >
+- id: the-user-interface
+  title: >
     Die Benutzer-<br>
     oberfläche
   subtitle: mit Yannick Kamenzi
@@ -19,7 +21,8 @@
     Du schaust dir die Hülle an. Ja, das ist der Touchscreen. Man kann sehen, wo man die Lautstärke erhöht oder reduziert. Du kannst das On und Off sehen. Du kannst die Kamera und die Ausgänge mit dem Fingerabdruck erfassen. Und das sind die 20 Prozent, die noch übrig sind! Es ist der Output.
     Die Dinge, mit denen die Leute angeben. Tanz, Imigongo. Nicht die integrierte Schaltung. Nicht das Motherboard. Alle wesentlichen Teile, die das Ausgabegerät vervielfachen würde. Nein. Wir haben nur… Es ist wie… Es ist, als würde man einfach die Wurzeln eines Baumes abschneiden und dir den Baum geben. Vielleicht würde jemand einen Weg finden, ihn zu erhalten und ihn zu einem Plastikteil zu machen, das da stehen würde. Aber er wird nie wieder wachsen. Siehst du? Er wird nie wieder wachsen. Er wird nie neue Früchte tragen. Er wird immer das sein, was er jetzt ist.
     Ich denke, das ist es, was auch mit den Tänzen passiert. Niemand hat gelernt hat, wie man sie richtig tanzt.
-- title: >
+- id: the-kings-wager
+  title: >
     Die Wette<br>
     des Königs
   subtitle: mit Chris Schwagga
@@ -34,14 +37,16 @@
     Du hörst einer Geschichte zu, verbindest sie aber mit dem Sound des Instruments. Und das bringt dich in eine bestimmte Stimmung und versetzt dich in eine andere Zeit. Ja, ich erinnere mich an einige Lieder, da war eines über einen König, der den jungen Männer in dem Königreich eine Aufgabe stellte.
     Derjenige, der seine Tochter heiraten will, muss Wasser aus einem bestimmten Fluss in seinen Händen zu ihm bringen. Derjenige, der dazu in der Lage ist, darf die Tochter heiraten. Und dann waren da all diese jungen Männer, die Krieger, die versuchten das Wasser zu tragen, das auch noch kilometerweit von dem König entfernt war. Einer war nicht gerade der stärkste, aber schlau. Er ging zum König und sagte: „Du hast uns diese Aufgabe gestellt. Als Männer deines Königreiches, lasst uns dir auch eine Aufgabe stellen. Du bist ein großer König. Wenn du willst, dass ich dir Wasser in meinen Hände bringe, zeige mir bitte, wie man einen Knoten aus Rauch macht.“ Das zwang den König zum Nachdenken. Und er sagte sich: Das ist es, was ich brauchte! Ich brauchte eine Herausforderung. Ich brauche niemanden, der genau das tut, was ich will, aber jemanden, der mich herausfordern würde. Jemand, der klug ist.
     Jemand, der mir den Ball zurückspielt. Und der kluge junge Mann hat dann die Tochter geheiratet.
-- title: >
+- id: the-crowd-is-hardly-breathing
+  title: >
     Das Publikum<br>
     hält<br>
     die Luft an
   subtitle: mit Hervé Kimenyi
   duration: 2’37’’
   text: test test
-- title: >
+- id: the-legend-of-king-rugombituri
+  title: >
     DIE LEGENDE<br>
     VON KÖNIG<br>
     RUGOMBITURI
@@ -53,7 +58,8 @@
     "Es war einmal ein König namens Rwogera.  Eines Tages, als er das Land bereiste und die Schönheit der Hügel genoss, von seinen Dienern begleitet, stieß er auf ein Kind, das im Busch verloren ging. Das Kind hatte einen langen Hals, Venen auf der Stirn, winzige Beine wie ein Vogel, eine flache Rückseite, die wie eine Verlängerung des Rückens aussah. Es schien so, als hätte das Kind einen Schwanz. König Rwogera befahl  einem seiner Diener, das Kind zu sich zu  nehmen und sich darum zu kümmern. Er würde ansonsten alle seine Privilegien verlieren, wenn das Kind sterben würde. Der Diener nahm den Jungen und versuchte, ihn zu füttern, aber er weigerte sich, Milch zu trinken. Er probierte  Joghurt, der Junge weigerte sich. Der Diener nahm das Kind in die Arme, sang Schlaflieder für und fragte sanft: "Was willst du Knabe?"  Der Junge sagte: "Ich will Ituri." Keiner wusste, was Ituri ist. Ein alter Mann, der in der Nähe  Tabak rauchte, sagte ihnen: "Ich weiß, was Ituri ist. Hol dir ein paar Süßkartoffeln und koche sie zusammen mit Bohnen. Füge ein bisschen grünes Isogi hinzu und lasse alles zusammen kochen. " Als das Essen fertig war und serviert wurde, lief dem kleinen Jungen das Wasser im Munde zusammen. Seine Augen leuchteten vor Aufregung als er sich dem Essen näherte.  Sobald er seinen Teller fertig hatte, trank er die Milch. Von da an trug er den Spitznamen Rugombituri [Der, der sein Iteruri haben muss]. Nach ein paar Tagen begann das Kind, ein wenig Gewicht zuzulegen. Der Junge wuchs zu einem starken Mann heran, heiratete und bekam einen Sohn. Er wurde Bisangwa genannt.  Bisangwa war Rwabugiris alter Gefährte und  gehörte zusammen mit Inshozamihigo und  anderen Jungen zur Armee von Ingangurarugo. Sie kämpften in Ndorwa und Bunyabungo.  Nach dem Tod von Rwogera wurde Rwabugiri König, Bisangwa blieb sein Freund. Eines  Tages, als Rwabugiri an Kindern vorbeikam,  die auf der Straße spielten, hielt er an, um mit ihnen zu sprechen. Aber die Kinder flohen vor ihm. Er bestand darauf, dass sie zurück kommen sollten. Er fragte: "Warum lauft ihr weg, wenn ihr mich seht?" Die Kinder sagten: "Man hört davon, dass Sie Menschen töten." Der  König wurde traurig und sagte: "Ich töte nur die bösen Menschen, die mir die Häuptlinge
     bringen." Später rief Rwabugiri alle seine Häuptlinge zusammen. Den höchsten Rang hatte  Bisangwa. Er bot ihnen das renommierte  Bananenbier zum Trinken an, bestand aber  darauf, dass nur jene Häuptlinge davon trinken dürften, die noch nie jemandem Unrecht getan hatten. Keiner der Häuptlinge wagte es, zu trinken. Als Bisangwa in den Raum trat, verstand er nicht was los war, und war entstezt als Rwabugiri erklärte was passiert sei.  Bisangwa fiel in ein Selbstlobgedicht, in dem er sagte, dass er rechtschaffen sei und keinen Grund hatte, den Alkohol zu fürchten.  Bisangwa trank. Alle Häuptlinge klatschten für ihn."  Das ist die Legende von Bisangwa, dem Sohn von Bigombituri.  
     Ich liebe diese Geschichte, weil sie Legenden aus der Vergangenheit erzählt. So efahren die Jugendlichen etwas über ihre Vergangenheit.   Ich denke, die Zukunft ist vielversprechend. Ich bin nur zur Grundschule gegegangen. Wir haben nur auf Französisch studiert. Kein Englisch. Aber heute sprechen die Kinder Englisch, Französisch und etwas Suaheli. Ich denke, es ist ein sehr guter Schritt nach vorne.
-- title: >
+- id: the-route-description
+  title: >
     Die<br>
     Wegbeschreibung
   subtitle: mit Yannick Kamenzi
@@ -66,13 +72,15 @@
     Wenn du meine Mutter fragen würdest, wo wir wohnen, würde sie das so sagen: 'Urabona ugeze hariya i Kanombe ku rusengero rwa Manishoborabyose urakata i bumoso, urahasanga umudamu ucuruza amandazi...'. Dass wäre ungefähr so, als würdest du irgendwo hingehen, da siehst du eine Kirche, die so und so heißt… dann triffst du eine Frau, die etwas auf der Straße verkauft, da biegst du dann links ab und  gehst hinunter, dann rechts, und dann siehst du einen großen Baum, und hinter dem Baum siehst du eine große Straße, die nach Hause führt. Das wäre ihre Art der Wegbeschreibung. Aber heute würden alle… ich habe ein Kind gefragt, wo es wohnt. Und es hat mir diesen Code geschickt : KN 5 Rd, Avenue bla bla. Was soll ich mit dieser Information anstellen? Ich würde nicht zu den Fahrern der Motoradtaxen gehen und fragen kennst du: KN bla bla. Nein. Die würden das nicht kapieren.
     Also wie um Himmels willen soll ich diesen Ort finden? Aber die Kinder kommen damit klar. Sie geben es einfach in Google ein, und du siehst die ganze Karte. Du fragst einfach Google Maps. Das ist typisch, das ist wie im Film. Das ist Amerika. Das ist westlich. Und alles geht in diese Richtung.
     Früher hat man im Wohnzimmer fern gesehen, heute hat jedes Kind Netflix auf dem iPhone.
-- title: >
+- id: bettys-song
+  title: >
     Bettys<br>
     Song
   subtitle: mit Béata Mukamulisa
   duration: 4’32’’
   text: test test
-- title: >
+- id: professor-mbonimana-is-absolutely-certain
+  title: >
     Professor<br>
     Mbonimana<br>
     ist sich<br>
@@ -90,7 +98,8 @@
     Aber das wird bleiben!! Darauf wette ich 1000 Dollar!
     Also ich bin ein Tänzer, ich bin ein professioneller Tänzer. Aber wenn es um Umuhamirizo geht, würde ich nur den Tanzpart machen. Lass mich als Beispiel einen Witz erzählen. Wenn wir Männer am Ende von Turivuga tanzen, weißt du, was ich bis dahin mache? Ich könnte entweder einfach schreien oder Guma Guma Guma sagen. Denn den richtigen Text kenne ich nicht. Oder ich zähle einfach: rimwe kabiri gatatu kane gatanu gatandatu karindwi umunani ikenda icumi. Und es funktioniert. Weil niemand, versteht, was ich sage. Manchmal spreche ich sogar ein Gebet: ndakuramutsa mariya mubyeyi w'imana. Das ist: „Je vous salue, Marie plaine de grâce...“ in Kinyarwanda, richtig? Und: da uri mw'ijuru izina ryawe. So gehe ich damit um. Die Leute verstehen es nicht. Ich tanze für Leute, die sich nicht die Mühe geben, zuzuhören. Ich bin nicht der Einzige. Da vorne stehen dann andere, die für sie die richtigen Worte sagen, Sachen, die sie gelernt haben, und das Publikum merkt es nicht.
     Aber ich? Ich kann es nicht. Ich vermeide das Thema komplett.
-- title: >
+- id: the-queen-gets-herself-a-lover
+  title: >
     Die Königin<br>
     holt sich einen<br>
     Liebhaber
@@ -104,7 +113,8 @@
     Aber der Diener, naja, du weißt schon... Also sie ruft den Diener, um mit ihm Sex zu haben und der Diener bekommt eine Heidenangst, weil er denkt, ok, wenn ich nein sage, werde ich umgebracht und wenn ich ja sage und mich der Ehemann erwischt, werde ich auch umgebracht.
     Mitten in dieser Konfusion – er war wirklich verängstigt – zitterte er buchstäblich als er seinen Penis in die Vagina stecken wollte, und es hat nicht funktioniert. Also rieb er den Penis an der Klitoris und dann spritzte sie ab. Und anscheinend spritzte sie den Kivu-See.
     Und das ist der Ursprung der weiblichen Ejakulation in Ruanda. So sagen sie es. Das ist die Legende.
-- title: >
+- id: thats-colonization-you-stupid
+  title: >
     DAS IST WEGEN DER<br>
     KOLONIAL-<br>
     GESCHICHTE,<br>

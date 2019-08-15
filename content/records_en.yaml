@@ -1,8 +1,10 @@
 ---
-- title: >
+- id: rwandan-records
+  title: >
     Rwandan<br>
     Records
-- title: >
+- id: the-user-interface
+  title: >
     THE USER<br>
     INTERFACE
   subtitle: with Yannick Kamenzi
@@ -24,7 +26,8 @@
     will never have new fruits. It will always be what it is now. I think that&#39;s what&#39;s happening also with the
     dance. Because nobody learned how to make them. They all learned the dances but nobody learned how
     to create them.
-- title: >
+- id: the-kings-wager
+  title: >
     THE KINGS<br>
     WAGER
   subtitle: with Chris Schwagga
@@ -50,7 +53,8 @@
     reflect. And he was like: that&#39;s what I needed! I needed a challenge. I didn&#39;t need someone to do
     exactly what I wanted, but I needed someone who was gonna challenge me. Someone smart.
     Who&#39;s going to launch back the ball to me. And he was the one who married the daughter.
-- title: >
+- id: the-crowd-is-hardly-breathing
+  title: >
     THE CROWD<br>
     IS HARDLY<br>
     BREATHING
@@ -73,7 +77,8 @@
     doesn&#39;t remember you performed. Your body does because you&#39;re exhausted. But
     it&#39;s really when you become not the… not Hervé performing but you become like a
     vessel for something bigger than you. And you let it just happen.
-- title: >
+- id: the-legend-of-king-rugombituri
+  title: >
     THE LEGEND<br>
     OF KING<br>
     RUGOMBITURI
@@ -120,7 +125,8 @@
     learn about their past. I think the future is bright. I went to primary school. We only
     studied in French. No English. But today, kids speak English, French, some Swahili.
     I think it&#39;s a very good step forward.
-- title: >
+- id: the-route-description
+  title: >
     THE ROUTE<br>
     DESCRIPTION
   subtitle: with Yannick Kamenzi
@@ -142,13 +148,15 @@
     see in movies. That&#39;s American. And that&#39;s, you know, Western. And everything
     else is going that same way. People used to sit in the living room and watch TV.
     Now every kid has Netflix on their iPhones.
-- title: BETTY ’S SONG
+- id: bettys-song
+  title: BETTY ’S SONG
   subtitle: >
     with Béata<br>
     Mukamulisa
   duration: 4’32’’
   text: test test
-- title: >
+- id: professor-mbonimana-is-absolutely-certain
+  title: >
     PROFESSOR<br>
     MBONIMANA<br>
     IS ABSOLUTELY<br>
@@ -178,7 +186,8 @@
     that time to listen. I&#39;m not the only one. Because there would be others in front
     saying the right words for them, you know, stuff that they&#39;ve learnt. But now
     for example me that&#39;s all I&#39;ll say. I&#39;ll avoid the subject completely.
-- title: >
+- id: the-queen-gets-herself-a-lover
+  title: >
     THE QUEEN<br>
     GETS HERSELF<br>
     A LOVER
@@ -199,7 +208,8 @@
     clitoris and then she squirted. And apparently she squirted the Kivu lake. And that&#39;s
     the origin of how to make a woman...of the female ejaculation in Rwanda. That&#39;s
     what they say. That&#39;s the legend.
-- title: >
+- id: thats-colonization-you-stupid
+  title: >
     THATS<br>
     COLONIZATION,<br>
     YOU STUPID!
