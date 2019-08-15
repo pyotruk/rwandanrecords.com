@@ -4,9 +4,9 @@
     <section id="records">
       <div>
         <ul lang="en">
-          <each loop='record of records.en'>
+          <each loop='record, idx of records.en'>
             <li>
-              <a href="records/{{ record.id }}.html">
+              <a href="records/{{ idx }}.html">
                 <h1>{{{ record.title }}}</h1>
                 <if condition="record.subtitle">
                   <h2>{{{ record.subtitle }}}</h2>
@@ -19,9 +19,9 @@
           </each>
         </ul>
         <ul lang="de">
-          <each loop='record of records.de'>
+          <each loop='record, idx of records.de'>
             <li>
-              <a href="records/{{ record.id }}.html">
+              <a href="records/{{ idx }}.html">
                 <h1>{{{ record.title }}}</h1>
                 <if condition="record.subtitle">
                   <h2>{{{ record.subtitle }}}</h2>
