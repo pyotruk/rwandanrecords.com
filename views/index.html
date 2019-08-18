@@ -4,42 +4,33 @@
     <section id="records">
       <div>
         <ul lang="en">
+          <li>
+            <h1>Rwandan<br>Records</h1>
+          </li>
           <each loop='record, idx of records.en'>
             <li>
-              <a href="records/{{ idx }}.html">
+              <a href="records/{{ idx + 1 }}.html">
                 <h1>{{{ record.title }}}</h1>
-                <if condition="record.subtitle">
-                  <h2>{{{ record.subtitle }}}</h2>
-                </if>
-                <if condition="record.duration">
-                  <h2>{{ record.duration }}</h2>
-                </if>
+                <h2>{{{ record.subtitle }}}</h2>
+                <h2>{{ record.duration }}</h2>
               </a>
             </li>
           </each>
         </ul>
         <ul lang="de">
+          <li>
+            <h1>Rwandan<br>Records</h1>
+          </li>
           <each loop='record, idx of records.de'>
             <li>
-              <a href="records/{{ idx }}.html">
+              <a href="records/{{ idx + 1 }}.html">
                 <h1>{{{ record.title }}}</h1>
-                <if condition="record.subtitle">
-                  <h2>{{{ record.subtitle }}}</h2>
-                </if>
-                <if condition="record.duration">
-                  <h2>{{ record.duration }}</h2>
-                </if>
+                <h2>{{{ record.subtitle }}}</h2>
+                <h2>{{ record.duration }}</h2>
               </a>
             </li>
           </each>
         </ul>
-      </div>
-    </section>
-
-    <section id="record-modal">
-      <div>
-        <i>x</i>
-        <p></p>
       </div>
     </section>
 
