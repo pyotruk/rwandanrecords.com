@@ -9,7 +9,7 @@
           </li>
           <each loop='record, idx of records.en'>
             <li>
-              <a href="records/{{ idx + 1 }}.html">
+              <a href="records/{{ idx }}.html">
                 <h1>{{{ record.title }}}</h1>
                 <h2>{{{ record.subtitle }}}</h2>
                 <h2>{{ record.duration }}</h2>
@@ -23,7 +23,7 @@
           </li>
           <each loop='record, idx of records.de'>
             <li>
-              <a href="records/{{ idx + 1 }}.html">
+              <a href="records/{{ idx }}.html">
                 <h1>{{{ record.title }}}</h1>
                 <h2>{{{ record.subtitle }}}</h2>
                 <h2>{{ record.duration }}</h2>
