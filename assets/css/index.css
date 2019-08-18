@@ -1,13 +1,13 @@
 @import '_fonts.css';
 @import '_colors.less';
 @import '_global.less';
-@import '_nav.less';
-@import '_records.less';
 
+@import 'components/_nav.less';
 @import 'components/_accordion.less';
-@import 'components/_record-modal.less';
+@import 'components/_records.less';
 
 @import 'pages/_index.less';
+@import 'pages/_record.less';
 @import 'pages/_trailer.less';
 @import 'pages/_contacts.less';
 @import 'pages/_team.less';
