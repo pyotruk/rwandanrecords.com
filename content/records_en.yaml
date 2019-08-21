@@ -1,10 +1,10 @@
 ---
-- id: the-user-interface
-  title: >
+- title: >
     THE USER<br>
     INTERFACE
   subtitle: with Yannick Kamenzi
   duration: 1’45’’
+  audio: 15_Die_Benutzeroberfläche.mp3
   text: >
     To be honest and I'd be speaking like from where I'm standing and maybe my generation, I think 80 percent
     of it is already lost and we are struggling to keep the 20 percent that's there.<br>
@@ -22,12 +22,12 @@
     will never have new fruits. It will always be what it is now. I think that's what's happening also with the
     dance. Because nobody learned how to make them. They all learned the dances but nobody learned how
     to create them.
-- id: the-kings-wager
-  title: >
+- title: >
     THE KINGS<br>
     WAGER
   subtitle: with Chris Schwagga
   duration: 2’38’’
+  audio: 12_Die_Wette_des_Königs.mp3
   text: >
     I think music from Congo. Rumba. Congolese Rumba specifically. Old school Congolese Rumba
     affects me. It brings something out of me. More than anything else.<br>
@@ -49,13 +49,13 @@
     reflect. And he was like: that's what I needed! I needed a challenge. I didn't need someone to do
     exactly what I wanted, but I needed someone who was gonna challenge me. Someone smart.
     Who's going to launch back the ball to me. And he was the one who married the daughter.
-- id: the-crowd-is-hardly-breathing
-  title: >
+- title: >
     THE CROWD<br>
     IS HARDLY<br>
     BREATHING
   subtitle: with Hervé Kimenyi
   duration: 2’37’’
+  audio: 20_Das_Publikum_hält_die_Luft_an.mp3
   text: >
     It's when you realize it's not about you. It is when you let the story unveil itself. So,
     it's a level of connection that you have with your characters or your theme or your
@@ -73,8 +73,7 @@
     doesn't remember you performed. Your body does because you're exhausted. But
     it's really when you become not the… not Hervé performing but you become like a
     vessel for something bigger than you. And you let it just happen.
-- id: the-legend-of-king-rugombituri
-  title: >
+- title: >
     THE LEGEND<br>
     OF KING<br>
     RUGOMBITURI
@@ -82,6 +81,7 @@
     with Jean Marie<br>
     Vianney Mushabizi
   duration: 6’37’’
+  audio: 11_Die_Legende_vom_König_Rugombituri.mp3
   text: >
     Once upon a time there was a king named Rwogera. One day as he toured the
     country enjoying the beauty of the hills, escorted by his servants, he came across a
@@ -121,12 +121,12 @@
     learn about their past. I think the future is bright. I went to primary school. We only
     studied in French. No English. But today, kids speak English, French, some Swahili.
     I think it's a very good step forward.
-- id: the-route-description
-  title: >
+- title: >
     THE ROUTE<br>
     DESCRIPTION
   subtitle: with Yannick Kamenzi
   duration: 1’19’’
+  audio: 14_Die_Wegbeschreibung.mp3
   text: >
     If you ask my mom to tell you where we live she would go like, 'Urabona ugeze
     hariya i Kanombe ku rusengero rwa Manishoborabyose urakata i bumoso,
@@ -144,15 +144,14 @@
     see in movies. That's American. And that's, you know, Western. And everything
     else is going that same way. People used to sit in the living room and watch TV.
     Now every kid has Netflix on their iPhones.
-- id: bettys-song
-  title: BETTY ’S SONG
+- title: BETTY ’S SONG
   subtitle: >
     with Béata<br>
     Mukamulisa
   duration: 4’32’’
+  audio: 30_Betty_s_Song.mp3
   text: test test
-- id: professor-mbonimana-is-absolutely-certain
-  title: >
+- title: >
     PROFESSOR<br>
     MBONIMANA<br>
     IS ABSOLUTELY<br>
@@ -161,6 +160,7 @@
     with Prof. Gamalière Mbonimana<br>
     und Yannick Kamenzi
   duration: 2’25’’
+  audio: 23_Professor_Mbonimana_ist_sich_völlig_sicher.mp3
   text: >
     I've been collecting songs. Songs that are regarded as poems, stories about love.
     They are songs of praise about places, about the fall of the king, about the queen.
@@ -182,13 +182,13 @@
     that time to listen. I'm not the only one. Because there would be others in front
     saying the right words for them, you know, stuff that they've learnt. But now
     for example me that's all I'll say. I'll avoid the subject completely.
-- id: the-queen-gets-herself-a-lover
-  title: >
+- title: >
     THE QUEEN<br>
     GETS HERSELF<br>
     A LOVER
   subtitle: with Eric 1key
   duration: 1’25’’
+  audio: 10_Die_Königin_holt_sich_einen_Liebhaber.mp3
   text: >
     The Story of the Queen squirting the Lake Kivu is a legend, you know. So, here's
     how the legend goes: There's a queen. Her husband, the king or chef, we don't
@@ -204,8 +204,7 @@
     clitoris and then she squirted. And apparently she squirted the Kivu lake. And that's
     the origin of how to make a woman...of the female ejaculation in Rwanda. That's
     what they say. That's the legend.
-- id: thats-colonization-you-stupid
-  title: >
+- title: >
     THATS<br>
     COLONIZATION,<br>
     YOU STUPID!
@@ -213,6 +212,7 @@
     with Prof. Gamalière Mbonimana,<br>
     Hervé Kimenyi and Wesley Ruzibiza
   duration: 8’22’’
+  audio: 17_Das_ist_wegen_der_Kolonialgeschichte_du_Vollpfosten.mp3
   text: >
     Humanism, the human trait. In former times this was described by the vocabulary
     "ubuntu". Nowadays one says "ubumuntu". What does that mean? It is a word

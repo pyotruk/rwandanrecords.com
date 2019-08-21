@@ -1,6 +1,10 @@
 <extends src='views/layouts/record.html'>
   <block name='content'>
 
+    <audio controls autoplay>
+      <source src="audio/{{ records.en[0].audio }}" type="audio/mpeg">
+    </audio>
+
     <section id="titles">
 
       <div lang="en" class="container">
