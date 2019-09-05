@@ -5,6 +5,7 @@
 @import 'components/_nav.less';
 @import 'components/_accordion.less';
 @import 'components/_records.less';
+@import 'components/_record-modal.less';
 
 @import 'pages/_index.less';
 @import 'pages/_record.less';
