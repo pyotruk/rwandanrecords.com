@@ -5,7 +5,7 @@ const switchToLang = (lang) => {
   $(`*[lang]:not([lang="${lang}"])`).hide()
 }
 
-switchToLang('en')
+switchToLang('de')
 
 $('#lang li').click((e) => {
   switchToLang($(e.target).text())

@@ -1,42 +1,35 @@
 <extends src='views/layouts/main.html'>
   <block name='content'>
 
+    <section id="main-title">
+      <h1>Rwandan Records</h1>
+    </section>
+
     <section id="records">
-      <div>
-        <ul lang="en">
+      <ul lang="en">
+        <each loop='record, idx of records.en'>
           <li>
-            <h1>Rwandan<br>Records</h1>
+            <a href="records/{{ idx }}.html">
+              {{ record.title }} {{ record.subtitle }} {{ record.duration }}
+            </a>
           </li>
-          <each loop='record, idx of records.en'>
-            <li>
-              <a href="records/{{ idx }}.html">
-                <h1>{{{ record.title }}}</h1>
-                <h2>{{{ record.subtitle }}}</h2>
-                <h2>{{ record.duration }}</h2>
-              </a>
-            </li>
-          </each>
-        </ul>
-        <ul lang="de">
+        </each>
+      </ul>
+      <ul lang="de">
+        <each loop='record, idx of records.de'>
           <li>
-            <h1>Rwandan<br>Records</h1>
+            <a href="records/{{ idx }}.html">
+              {{ record.title }} {{ record.subtitle }} {{ record.duration }}
+            </a>
           </li>
-          <each loop='record, idx of records.de'>
-            <li>
-              <a href="records/{{ idx }}.html">
-                <h1>{{{ record.title }}}</h1>
-                <h2>{{{ record.subtitle }}}</h2>
-                <h2>{{ record.duration }}</h2>
-              </a>
-            </li>
-          </each>
-        </ul>
-      </div>
+        </each>
+      </ul>
     </section>
 
     <div id="record-modal-overlay"></div>
     <div id="record-modal">
-      <iframe src="https://player.vimeo.com/video/324805272" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+      <iframe src="https://player.vimeo.com/video/324805272" frameborder="0" allow="autoplay; fullscreen"
+              allowfullscreen></iframe>
     </div>
 
   </block>
