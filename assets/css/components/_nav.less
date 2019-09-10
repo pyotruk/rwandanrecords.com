@@ -6,23 +6,35 @@ nav {
   z-index: 2;
 
   ul#menu {
-    padding: 0;
+    background: url("/img/nav.svg") no-repeat left;
+    padding-left: 17px;
+    margin-left: 20px;
     list-style-type: none;
     text-align: left;
     width: 150px;
-    margin-left: auto;
 
     li, a {
       color: @brandBlue;
     }
 
-    li.active a {
-      color: white;
+    li {
+      visibility: hidden;
+      cursor: pointer;
+      margin-bottom: 22px;
+      padding-top: 5px;
+      font-size: 13px;
     }
 
-    li {
-      cursor: pointer;
-      margin-bottom: 12px;
+    li.active {
+      visibility: visible;
+    }
+
+    li:first-child {
+      padding-top: 8px;
+    }
+
+    li:last-child {
+      padding-top: 0;
     }
   }
 
@@ -33,7 +45,7 @@ nav {
     padding: 0;
     text-transform: uppercase;
     height: @circleSize + 2 * @circleBorderWidth;
-    margin-bottom: 30px;
+    margin-bottom: 24px;
 
     a {
       display: block;
