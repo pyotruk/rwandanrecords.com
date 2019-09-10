@@ -6,24 +6,20 @@
     </section>
 
     <section id="records">
-      <ul lang="en">
+      <div lang="en">
         <each loop='record, idx of records.en'>
-          <li>
-            <a href="javascript:__rwandan_records__.showModal('{{ record.video }}')">
-              {{ record.title }} {{ record.subtitle }} {{ record.duration }}
-            </a>
-          </li>
+          <a href="javascript:__rwandan_records__.showModal('{{ record.video }}')">
+            <img src="img/records/{{ record.svg }}">
+          </a>
         </each>
-      </ul>
-      <ul lang="de">
+      </div>
+      <div lang="de">
         <each loop='record, idx of records.de'>
-          <li>
-            <a href="javascript:__rwandan_records__.showModal('{{ record.video }}')">
-              {{ record.title }} {{ record.subtitle }} {{ record.duration }}
-            </a>
-          </li>
+          <a href="javascript:__rwandan_records__.showModal('{{ record.video }}')">
+            <img src="img/records/{{ record.svg }}">
+          </a>
         </each>
-      </ul>
+      </div>
     </section>
 
     <div id="record-modal-overlay"></div>
