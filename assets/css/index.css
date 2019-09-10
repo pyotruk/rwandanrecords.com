@@ -1,5 +1,6 @@
 @import '_fonts.css';
 @import '_colors.less';
+@import '_vars.less';
 @import '_global.less';
 
 @import 'components/_nav.less';
