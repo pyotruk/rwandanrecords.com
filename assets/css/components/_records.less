@@ -10,7 +10,7 @@
 
 #records {
   @recordsCircleDiameter: 780px;
-  @recordsCircleStep: 36px;
+  @recordsCircleStep: 35px;
 
   position: relative;
   width: 100%;
@@ -22,12 +22,16 @@
   img {
     position: absolute;
     width: 100%;
+    animation-name: rotation;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
   }
 
   .loop (@index) when (@index > 0) {
     img:nth-child(@{index}) {
       /* autoprefixer: ignore next */
       clip-path: circle(@recordsCircleDiameter/2 - (@index - 1) * @recordsCircleStep at center);
+      animation-duration: 20s - (@index - 1) * 2s;
     }
     .loop(@index - 1);
   }
