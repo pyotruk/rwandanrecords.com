@@ -5,20 +5,20 @@ nav {
   right: 0;
   z-index: 2;
 
-  li, a {
-    color: @brandBlue;
-  }
-
-  li.active a {
-    color: white;
-  }
-
-  ul {
+  ul#menu {
     padding: 0;
     list-style-type: none;
     text-align: left;
     width: 150px;
     margin-left: auto;
+
+    li, a {
+      color: @brandBlue;
+    }
+
+    li.active a {
+      color: white;
+    }
 
     li {
       cursor: pointer;
@@ -27,20 +27,36 @@ nav {
   }
 
   ul#lang {
+    @circleSize: 46px;
+    @circleBorderWidth: 3px;
+
+    padding: 0;
     text-transform: uppercase;
+    height: @circleSize + 2 * @circleBorderWidth;
+    margin-bottom: 30px;
 
     a {
       display: block;
-      width: 18px;
-      height: 18px;
+      width: @circleSize;
+      height: @circleSize;
       border-radius: 50%;
-      background-color: @brandBlue;
+      border: @circleBorderWidth @brandBlue solid;
       position: absolute;
       cursor: pointer;
     }
 
     li {
-      padding-left: 38px;
+      display: inline-block;
+      font-size: 12px;
+      margin-top: 13px;
+    }
+
+    li.active {
+      border-bottom: @circleBorderWidth @brandBlue solid;
+    }
+
+    li:first-of-type {
+      margin-left: @circleSize + 39px;
     }
   }
 }
