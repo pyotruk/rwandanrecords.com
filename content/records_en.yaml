@@ -1,38 +1,46 @@
 ---
-- title: THE USER INTERFACE
-  subtitle: with Yannick Kamenzi
-  duration: 1’45’’
-  audio: 15_Die_Benutzeroberfläche.mp3
-- title: THE KINGS WAGER
-  subtitle: with Chris Schwagga
-  duration: 2’38’’
-  audio: 12_Die_Wette_des_Königs.mp3
-- title: THE CROWD IS HARDLY BREATHING
-  subtitle: with Hervé Kimenyi
-  duration: 2’37’’
-  audio: 20_Das_Publikum_hält_die_Luft_an.mp3
+- title: THATS COLONIZATION, YOU STUPID!
+  subtitle: with Prof. Gamalière Mbonimana, Hervé Kimenyi and Wesley Ruzibiza
+  duration: 8’22’’
+  video: https://player.vimeo.com/video/324804664
+
+- title: PROFESSOR MBONIMANA IS ABSOLUTELY CERTAIN
+  subtitle: with Prof. Gamalière Mbonimana und Yannick Kamenzi
+  duration: 2’25’’
+  video: https://player.vimeo.com/video/324805538
+
+- title: THE QUEEN GETS HERSELF A LOVER
+  subtitle: with Eric 1key
+  duration: 1’25’’
+  video: https://player.vimeo.com/video/324804301
+
 - title: THE LEGEND OF KING RUGOMBITURI
   subtitle: >
     with Jean Marie Vianney Mushabizi
   duration: 6’37’’
-  audio: 11_Die_Legende_vom_König_Rugombituri.mp3
+  video: https://player.vimeo.com/video/324804333
+
+- title: THE CROWD IS HARDLY BREATHING
+  subtitle: with Hervé Kimenyi
+  duration: 2’37’’
+  video: https://player.vimeo.com/video/324805272
+
+- title: THE USER INTERFACE
+  subtitle: with Yannick Kamenzi
+  duration: 1’45’’
+  video: https://player.vimeo.com/video/324804473
+
+- title: THE KINGS WAGER
+  subtitle: with Chris Schwagga
+  duration: 2’38’’
+  video: https://player.vimeo.com/video/324804390
+
 - title: THE ROUTE DESCRIPTION
   subtitle: with Yannick Kamenzi
   duration: 1’19’’
-  audio: 14_Die_Wegbeschreibung.mp3
+  video: https://player.vimeo.com/video/324804442
+
 - title: BETTY ’S SONG
   subtitle: with Béata Mukamulisa
   duration: 4’32’’
-  audio: 30_Betty_s_Song.mp3
-- title: PROFESSOR MBONIMANA IS ABSOLUTELY CERTAIN
-  subtitle: with Prof. Gamalière Mbonimana und Yannick Kamenzi
-  duration: 2’25’’
-  audio: 23_Professor_Mbonimana_ist_sich_völlig_sicher.mp3
-- title: THE QUEEN GETS HERSELF A LOVER
-  subtitle: with Eric 1key
-  duration: 1’25’’
-  audio: 10_Die_Königin_holt_sich_einen_Liebhaber.mp3
-- title: THATS COLONIZATION, YOU STUPID!
-  subtitle: with Prof. Gamalière Mbonimana, Hervé Kimenyi and Wesley Ruzibiza
-  duration: 8’22’’
-  audio: 17_Das_ist_wegen_der_Kolonialgeschichte_du_Vollpfosten.mp3
+  video: https://player.vimeo.com/video/324806895

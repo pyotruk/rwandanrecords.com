@@ -9,7 +9,7 @@
       <ul lang="en">
         <each loop='record, idx of records.en'>
           <li>
-            <a href="records/{{ idx }}.html">
+            <a href="javascript:__rwandan_records__.showModal('{{ record.video }}')">
               {{ record.title }} {{ record.subtitle }} {{ record.duration }}
             </a>
           </li>
@@ -18,7 +18,7 @@
       <ul lang="de">
         <each loop='record, idx of records.de'>
           <li>
-            <a href="records/{{ idx }}.html">
+            <a href="javascript:__rwandan_records__.showModal('{{ record.video }}')">
               {{ record.title }} {{ record.subtitle }} {{ record.duration }}
             </a>
           </li>
@@ -28,7 +28,7 @@
 
     <div id="record-modal-overlay"></div>
     <div id="record-modal">
-      <iframe src="https://player.vimeo.com/video/324805272" frameborder="0" allow="autoplay; fullscreen"
+      <iframe src="" frameborder="0" allow="autoplay; fullscreen"
               allowfullscreen></iframe>
     </div>
 
