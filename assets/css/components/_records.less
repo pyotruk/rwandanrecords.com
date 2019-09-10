@@ -19,12 +19,17 @@
   margin: auto;
   cursor: pointer;
 
+  &:hover img {
+    animation-play-state: running;
+  }
+
   img {
     position: absolute;
     width: 100%;
     animation-name: rotation;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
+    animation-play-state: paused;
   }
 
   .loop (@index) when (@index > 0) {

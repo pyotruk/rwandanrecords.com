@@ -1,17 +1,45 @@
 body#index {
+  @animationDuration: 1.5s;
+
+  overflow-y: hidden;
 
   main {
     padding: 1em;
   }
 
-  nav {
-    top: 16.5em;
+  #main-title {
+    position: absolute;
+    top: -800px;
+    transition: top ease-in-out @animationDuration;
+
+    &.init {
+      top: 0;
+    }
+
+    h1 {
+      text-transform: uppercase;
+      font-size: 13em;
+      text-align: center;
+      margin: 0;
+    }
   }
 
-  #main-title h1 {
-    text-transform: uppercase;
-    font-size: 13em;
-    text-align: center;
-    margin: 0;
+  nav {
+    transition: right ease-in-out @animationDuration;
+    right: 0;
+
+    &.init {
+      right: -300px;
+    }
+  }
+
+  #records {
+    opacity: 1;
+    transition: opacity ease-in-out @animationDuration;
+
+    &.init {
+      opacity: 0;
+      pointer-events: none;
+    }
   }
 }

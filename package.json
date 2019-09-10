@@ -8,7 +8,6 @@
   },
   "bugs": "https://github.com/vldmri/rwandan-records/issues",
   "dependencies": {
-    "circletype": "^2.3.0",
     "jquery": "^3.4.1",
     "js-yaml": "^3.13.1",
     "less": "^3.9.0",

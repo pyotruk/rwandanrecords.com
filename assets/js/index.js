@@ -1,6 +1,5 @@
 import './lang'
-import './records'
-
-import './components/nav'
-import './components/accordion'
-import './components/record-modal'
+import './nav'
+import './main-animation'
+import './accordion'
+import './record-modal'
