@@ -8,16 +8,18 @@
     <section id="records">
       <div lang="en">
         <each loop='record, idx of records.en'>
-          <a href="javascript:__rwandan_records__.showModal('{{ record.video }}')">
-            <img src="img/records/{{ record.svg }}">
-          </a>
+          <img
+            src="img/records/{{ record.svg }}"
+            onclick="__rwandan_records__.showModal('{{ record.video }}')"
+          >
         </each>
       </div>
       <div lang="de">
         <each loop='record, idx of records.de'>
-          <a href="javascript:__rwandan_records__.showModal('{{ record.video }}')">
-            <img src="img/records/{{ record.svg }}">
-          </a>
+          <img
+            src="img/records/{{ record.svg }}"
+            onclick="__rwandan_records__.showModal('{{ record.video }}')"
+          >
         </each>
       </div>
     </section>

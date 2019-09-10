@@ -15,7 +15,7 @@ const getStaticContent = (name, lang) => {
 
 module.exports = {
   devtool: 'source-map',
-  ignore: ['**/layout.html', '**/_*', '**/.*', 'readme.md', 'package-lock.json', '.*/**/*', 'content/*'],
+  ignore: ['views/layouts/*', '**/_*', '**/.*', 'readme.md', 'package-lock.json', '.*/**/*', 'content/*'],
   reshape: htmlStandards({
     root: './',
     locals: (ctx) => {

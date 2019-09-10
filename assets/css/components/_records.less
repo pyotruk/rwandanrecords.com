@@ -9,23 +9,27 @@
 }
 
 #records {
+  @recordsCircleDiameter: 780px;
+  @recordsCircleStep: 36px;
+
   position: relative;
   width: 100%;
-  height: 100vh;
-  max-width: 780px;
-  max-height: 780px;
+  max-width: @recordsCircleDiameter;
+  min-height: @recordsCircleDiameter;
   margin: auto;
+  cursor: pointer;
 
   img {
     position: absolute;
     width: 100%;
   }
 
-  //.loop (@index) when (@index > 0) {
-  //  li:nth-child(@{index}) {
-  //    top: @index * 32px;
-  //  }
-  //  .loop(@index - 1);
-  //}
-  //.loop(9);
+  .loop (@index) when (@index > 0) {
+    img:nth-child(@{index}) {
+      /* autoprefixer: ignore next */
+      clip-path: circle(@recordsCircleDiameter/2 - (@index - 1) * @recordsCircleStep at center);
+    }
+    .loop(@index - 1);
+  }
+  .loop(9);
 }
