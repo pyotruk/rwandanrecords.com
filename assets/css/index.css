@@ -9,6 +9,7 @@
 @import 'components/_record-modal.less';
 
 @import 'pages/_index.less';
+@import 'pages/_main.less';
 @import 'pages/_about.less';
 @import 'pages/_trailer.less';
 @import 'pages/_contacts.less';
