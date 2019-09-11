@@ -1,5 +1,6 @@
 import './lang'
 import './nav'
+import './scrollbar'
 import './main-animation'
 import './accordion'
 import './record-modal'
