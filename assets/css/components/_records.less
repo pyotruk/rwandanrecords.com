@@ -41,4 +41,16 @@
     .loop(@index - 1);
   }
   .loop(9);
+
+  i {
+    @size: 22px;
+
+    width: @size;
+    height: @size;
+    background-color: @brandBlue;
+    border-radius: 50%;
+    position: absolute;
+    top: calc(50% - @size / 2);
+    left: calc(50% - @size / 2);
+  }
 }
