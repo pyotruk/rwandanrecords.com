@@ -40,7 +40,7 @@ module.exports = {
     minify: false
   }),
   postcss: cssStandards({
-    minify: env === 'production',
+    minify: false,
     warnForDuplicates: env !== 'production'
   }),
   babel: jsStandards(),
