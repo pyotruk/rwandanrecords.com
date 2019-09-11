@@ -37,7 +37,7 @@ module.exports = {
         }
       }
     },
-    minify: env === 'production'
+    minify: false
   }),
   postcss: cssStandards({
     minify: env === 'production',
