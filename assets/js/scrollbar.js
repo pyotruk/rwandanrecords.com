@@ -7,7 +7,7 @@ import $ from 'jquery'
 const SCROLLBAR_WIDTH = '17px'
 
 const hasScrollBar = () => {
-  return $(window).get(0).scrollHeight > $(window).height()
+  return $(document).height() > $(window).height()
 }
 
 $(document).ready(() => {
