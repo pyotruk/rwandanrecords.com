@@ -36,7 +36,7 @@
     img:nth-child(@{index}) {
       /* autoprefixer: ignore next */
       clip-path: circle(@recordsCircleDiameter/2 - (@index - 1) * @recordsCircleStep at center);
-      animation-duration: 10s - (@index - 1) * 1s;
+      animation-duration: 6s - (@index - 1) * .5s;
     }
     .loop(@index - 1);
   }
