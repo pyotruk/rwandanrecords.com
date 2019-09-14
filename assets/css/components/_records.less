@@ -36,7 +36,7 @@
 
   .loop (@index) when (@index > 0) {
     img:nth-child(@{index}) {
-      animation-duration: 6s - (@index - 1) * .5s;
+      animation-duration: 5s - (@index - 1) * .4s;
     }
     .loop(@index - 1);
   }
