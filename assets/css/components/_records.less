@@ -9,14 +9,16 @@
 }
 
 #records {
-  @recordsCircleDiameter: 702px;
-  @recordsCircleStep: 32.5px;
+  @recordsCircleDiameter: 100%;
+  @recordsCircleStep: 10.75%;
+  @marginTop: 65px;
+  @maxSize: calc(100vh - @marginTop - 2em);
 
   position: relative;
   width: 100%;
-  max-width: @recordsCircleDiameter;
-  min-height: @recordsCircleDiameter;
-  margin: 65px auto auto auto;
+  max-width: @maxSize;
+  height: @maxSize;
+  margin: @marginTop auto 0 auto;
   cursor: pointer;
 
   img {
@@ -34,13 +36,59 @@
 
   .loop (@index) when (@index > 0) {
     img:nth-child(@{index}) {
-      /* autoprefixer: ignore next */
-      clip-path: circle(@recordsCircleDiameter/2 - (@index - 1) * @recordsCircleStep at center);
       animation-duration: 6s - (@index - 1) * .5s;
     }
     .loop(@index - 1);
   }
   .loop(9);
+
+  img:nth-child(1) {
+    /* autoprefixer: ignore next */
+    clip-path: circle(100% at center);
+  }
+
+
+  img:nth-child(2) {
+    /* autoprefixer: ignore next */
+    clip-path: circle(46% at center);
+  }
+
+
+  img:nth-child(3) {
+    /* autoprefixer: ignore next */
+    clip-path: circle(42% at center);
+  }
+
+
+  img:nth-child(4) {
+    /* autoprefixer: ignore next */
+    clip-path: circle(37% at center);
+  }
+
+  img:nth-child(5) {
+    /* autoprefixer: ignore next */
+    clip-path: circle(32% at center);
+  }
+
+  img:nth-child(6) {
+    /* autoprefixer: ignore next */
+    clip-path: circle(27% at center);
+  }
+
+  img:nth-child(7) {
+    /* autoprefixer: ignore next */
+    clip-path: circle(23% at center);
+  }
+
+  img:nth-child(8) {
+    /* autoprefixer: ignore next */
+    clip-path: circle(18% at center);
+  }
+
+  img:nth-child(9) {
+    /* autoprefixer: ignore next */
+    clip-path: circle(14% at center);
+  }
 
   i {
     @size: 22px;
