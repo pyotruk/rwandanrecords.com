@@ -1,12 +1,14 @@
 <extends src='views/layouts/main.html'>
   <block name='content'>
 
-    <section id="main-title" class="init">
-      <h1>Rwandan<br>Records</h1>
+    <include src='views/components/main-title.html'></include>
+
+    <section id="records-desktop" class="init">
+      <include src='views/components/records-desktop.html'></include>
     </section>
 
-    <section id="records" class="init">
-      <include src='views/components/records.html'></include>
+    <section id="records-mobile">
+      <include src='views/components/records-mobile.html'></include>
     </section>
 
     <include src='views/components/record-modal.html'></include>

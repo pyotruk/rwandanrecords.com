@@ -7,7 +7,7 @@ const animate = () => {
 
   $(MAIN_TITLE_SEL).removeClass('init')
   $('nav').removeClass('init')
-  $('#records').removeClass('init')
+  $('#records-desktop').removeClass('init')
 }
 
 $(window).bind('mousewheel', () => animate())

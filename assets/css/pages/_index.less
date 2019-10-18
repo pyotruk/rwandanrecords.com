@@ -1,29 +1,23 @@
 body#index {
   @animationDuration: 1.5s;
 
-  overflow-y: hidden;
+  @media @desktop {
+    overflow-y: hidden;
+  }
 
   main {
     padding: @mainPagePadding;
   }
 
-  #main-title {
-    position: absolute;
-    top: -800px;
-    transition: top ease-in-out @animationDuration;
+  @media @desktop {
+    #main-title {
+      position: absolute;
+      top: -800px;
+      transition: top ease-in-out @animationDuration;
 
-    &.init {
-      top: 0;
-    }
-
-    h1 {
-      text-transform: uppercase;
-      text-align: left;
-      font-size: 24em;
-      margin: 106px 0 0 9px;
-      line-height: 0.7em;
-      letter-spacing: 0;
-      cursor: pointer;
+      &.init {
+        top: 0;
+      }
     }
   }
 
@@ -36,7 +30,7 @@ body#index {
     }
   }
 
-  #records {
+  #records-desktop {
     opacity: 1;
     transition: opacity ease-in-out @animationDuration .5s;
     visibility: visible;
