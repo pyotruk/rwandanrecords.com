@@ -5,6 +5,25 @@
 #records-mobile {
   text-align: center;
 
+  &:before, &:after {
+    content: "";
+    position: fixed;
+    left: 0;
+    right: 0;
+    height: 120px;
+    z-index: 1;
+  }
+
+  &:before {
+    top: 70px;
+    background: linear-gradient(to bottom, black, transparent);
+  }
+
+  &:after {
+    bottom: 0;
+    background: linear-gradient(to top, black, transparent);
+  }
+
   h3 {
     font-family: 'FoundersGroteskX', sans-serif;
     font-size: 2em;
