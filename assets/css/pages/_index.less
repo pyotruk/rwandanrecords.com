@@ -5,10 +5,30 @@ body#index {
     main {
       padding: @mainPagePaddingMobile;
     }
+
+    #main-title {
+      position: absolute;
+      top: -500px;
+      transition: top ease-in-out @animationDuration;
+
+      &.init {
+        top: 100px;
+      }
+    }
+  }
+
+  #records-mobile {
+    transition: margin-top ease-in-out @animationDuration .5s;
+    margin-top: 0;
+
+    &.init {
+      margin-top: 200vh;
+      pointer-events: none;
+    }
   }
 
   @media @desktop {
-    overflow-y: hidden;
+    overflow-y: hidden !important;
 
     main {
       padding: @mainPagePaddingDesktop;
