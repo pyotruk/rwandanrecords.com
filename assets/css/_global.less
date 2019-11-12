@@ -36,7 +36,14 @@ body {
 
   main {
     height: auto;
-    padding: @bodyPadding @navPadding @bodyPadding @bodyPadding;
     line-height: 1.3;
+
+    @media @desktop {
+      padding: @defaultPaddingDesktop;
+    }
+
+    @media @mobile {
+      padding: @defaultPaddingMobile;
+    }
   }
 }

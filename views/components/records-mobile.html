@@ -1,6 +1,6 @@
 <div lang="en">
   <each loop='record, idx of records.en'>
-    <div>
+    <div onclick="__rwandan_records__.showModal('{{ record.video }}')">
       <h3>{{ record.title }}</h3>
       <p>{{ record.subtitle }}</p>
       <p>{{ record.duration }}</p>
@@ -9,7 +9,7 @@
 </div>
 <div lang="de">
   <each loop='record, idx of records.de'>
-    <div>
+    <div onclick="__rwandan_records__.showModal('{{ record.video }}')">
       <h3>{{ record.title }}</h3>
       <p>{{ record.subtitle }}</p>
       <p>{{ record.duration }}</p>
