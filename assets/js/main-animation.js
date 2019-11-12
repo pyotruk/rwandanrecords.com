@@ -30,3 +30,4 @@ const animate = () => {
 $(window).bind('mousewheel', () => animate())
 $(window).bind('DOMMouseScroll', () => animate()) // works in FF
 $(MAIN_TITLE_SEL).bind('click', () => animate())
+$(document).on('touchstart', () => animate())
