@@ -1,6 +1,14 @@
 body#contacts {
   section {
-    font-size: 2em;
+
+    @media @desktop {
+      font-size: 2em;
+    }
+
+    @media @mobile {
+      font-size: 1.5em;
+      padding-top: 1em;
+    }
 
     a {
       transition: font-style ease-in-out .1s;
