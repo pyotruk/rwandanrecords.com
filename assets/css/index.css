@@ -4,7 +4,8 @@
 @import '_media.less';
 @import '_global.less';
 
-@import 'components/_nav.less';
+@import 'components/_nav-desktop.less' (min-width: 576px);
+@import 'components/_nav-mobile.less' (max-width: 575px);
 @import 'components/_accordion.less';
 @import 'components/_main-title.less';
 @import 'components/_record-modal.less';

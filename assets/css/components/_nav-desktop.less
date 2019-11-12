@@ -38,39 +38,35 @@ nav {
     }
   }
 
-  ul#lang {
-    @circleSize: 46px;
-    @circleBorderWidth: 3px;
+  a#circle {
+    display: block;
+    width: @navCircleSize;
+    height: @navCircleSize;
+    border-radius: 50%;
+    border: @navCircleBorderWidth @brandBlue solid;
+    position: absolute;
+    cursor: pointer;
+  }
 
+  ul#lang {
     padding: 0;
     text-transform: uppercase;
-    height: @circleSize + 2 * @circleBorderWidth;
+    height: @navCircleSize + 2 * @navCircleBorderWidth;
     margin-bottom: 24px;
-
-    a {
-      display: block;
-      width: @circleSize;
-      height: @circleSize;
-      border-radius: 50%;
-      border: @circleBorderWidth @brandBlue solid;
-      position: absolute;
-      cursor: pointer;
-    }
 
     li {
       display: inline-block;
       font-size: 12px;
-      margin-top: 13px;
       cursor: pointer;
       transition: border-bottom ease-in-out .1s;
     }
 
     li.active, li:hover {
-      border-bottom: @circleBorderWidth @brandBlue solid;
+      border-bottom: @navCircleBorderWidth @brandBlue solid;
     }
 
     li:first-of-type {
-      margin-left: @circleSize + 39px;
+      margin-left: @navCircleSize + 39px;
     }
   }
 }
