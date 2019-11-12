@@ -1,15 +1,19 @@
 body#index {
   @animationDuration: 1.5s;
 
+  @media @mobile {
+    main {
+      padding: @mainPagePaddingMobile;
+    }
+  }
+
   @media @desktop {
     overflow-y: hidden;
-  }
 
-  main {
-    padding: @mainPagePadding;
-  }
+    main {
+      padding: @mainPagePaddingDesktop;
+    }
 
-  @media @desktop {
     #main-title {
       position: absolute;
       top: -800px;

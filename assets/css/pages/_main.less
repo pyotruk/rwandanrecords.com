@@ -1,7 +1,15 @@
 body#main {
   overflow-y: hidden;
 
-  main {
-    padding: @mainPagePadding;
+  @media @desktop {
+    main {
+      padding: @mainPagePaddingDesktop;
+    }
+  }
+
+  @media @mobile {
+    main {
+      padding: @mainPagePaddingMobile;
+    }
   }
 }
